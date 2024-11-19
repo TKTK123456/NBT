@@ -13,5 +13,5 @@ async function convertToDat(toUrl) {
   output = await NBT.write(output);
   fs.promises.writeFile(toUrl, output);
 }
-convertFromDat("./pKnfyrM4LEo=/level.dat");
-//convertToDat("./pKnfyrM4LEo=/level.dat");
+//convertFromDat("./pKnfyrM4LEo=/level.dat");
+convertToDat("./pKnfyrM4LEo=/level.dat");
