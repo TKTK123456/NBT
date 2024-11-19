@@ -14,5 +14,5 @@ async function convertToDat(toUrl) {
   fs.promises.writeFile(toUrl, output);
 }
 //convertFromDat("./pKnfyrM4LEo=/level.dat");
-convertToDat("./pKnfyrM4LEo=/level.dat");
-//convertFromDat("./level.dat");
+//convertToDat("./pKnfyrM4LEo=/level.dat");
+convertToDat("./level.dat");
